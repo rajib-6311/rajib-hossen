@@ -1,13 +1,15 @@
-import { GithubIcon, Linkedin } from 'lucide-react';
+import { GithubIcon,Linkedin } from 'lucide-react';
 import { CgMail } from "react-icons/cg";
 import { RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
-import { BiLogoFigma, BiLogoTypescript } from "react-icons/bi";
+import { BiLogoFigma, BiLogoTypescript, BiRightArrow } from "react-icons/bi";
 import { IoLogoCss3, IoLogoHtml5, IoLogoNodejs } from "react-icons/io";
 import { FaGitAlt, FaReact } from 'react-icons/fa';
 import { SiMaterialformkdocs, SiPostman, SiTailwindcss, SiVercel, SiVite } from 'react-icons/si';
 import pdf from '../assets/cv.pdf'
 import { AiOutlineDocker } from 'react-icons/ai';
 import { VscVscode } from 'react-icons/vsc';
+import { GoArrowUpRight } from 'react-icons/go';
+import {Link} from 'react-router-dom'
 
 const skills = [
   {
@@ -53,10 +55,10 @@ const skills = [
 
 const Home = () => {
   return (
-    <div className='pl-[25%] mt-18 py-4'>
+    <div className='pl-[10%] md:pl-[25%] mt-18 py-4'>
       <h1 className='text-3xl font-semibold'>Md. Rajib Hossen</h1>
       <p className="py-6">
-        Passionate Software Engineer skilled in JavaScript, TypeScript, React, Next.js, <br /> and Node.js. Experienced in building responsive, high-performance applications.
+        Passionate Software Engineer skilled in JavaScript, TypeScript, React.js, Next.js, <br /> and Node.js. Experienced in building responsive, high-performance applications.
       </p>
 
       <div className='flex items-center gap-2'>
@@ -100,6 +102,43 @@ const Home = () => {
       </div>
 
       {/* project section  */}
+      <h1 className='text-xl font-bold mt-10'>Projects</h1>
+
+      <div className='py-2'>
+        <Link to='/project-details' className='flex items-center gap-2'>
+          <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
+          <GoArrowUpRight />
+        </Link>
+        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
+      </div>
+      <div className='py-2'>
+        <Link to='/project-details-two' className='flex items-center gap-2'>
+          <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
+          <GoArrowUpRight />
+        </Link>
+        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
+      </div>
+      <div className='py-2'>
+        <Link to='/' className='flex items-center gap-2'>
+          <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
+          <GoArrowUpRight />
+        </Link>
+        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
+      </div>
+      <div className='py-2'>
+        <Link to='/project-details' className='flex items-center gap-2'>
+          <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
+          <GoArrowUpRight />
+        </Link>
+        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
+      </div>
+
+
+
     </div>
   );
 };
