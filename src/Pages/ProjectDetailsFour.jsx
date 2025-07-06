@@ -2,14 +2,15 @@ import { FaHome } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const ProjectDetailsTwo = () => {
+
+const ProjectDetailsFour = () => {
     return (
-       <div className="pl-[10%] md:pl-[25%] mt-20">
+        <div className="pl-[10%] md:pl-[25%] mt-20">
             <Link to='/' className="flex items-center gap-1 bg-gray-100 w-20 p-1 rounded-lg">
                 <FaHome />
                 <h1>Home</h1>
             </Link>
-            <h1 className="text-2xl font-semibold py-3">Bangladesh two</h1>
+            <h1 className="text-2xl font-semibold py-3">Bangladesh new new four</h1>
             <h2 className="py-3">Technologies</h2>
             <p className="">NextJS, Tailwind CSS, Ant Design, Redux Toolkit</p>
 
@@ -24,4 +25,4 @@ const ProjectDetailsTwo = () => {
     );
 };
 
-export default ProjectDetailsTwo;
+export default ProjectDetailsFour;

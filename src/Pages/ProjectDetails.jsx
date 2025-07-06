@@ -9,7 +9,7 @@ const ProjectDetails = () => {
                 <FaHome />
                 <h1>Home</h1>
             </Link>
-            <h1 className="text-2xl font-semibold py-3">US-Bangla Airlines Website & CMS</h1>
+            <h1 className="text-2xl font-semibold py-3">US-Bangla Airlines Website & CMS one</h1>
             <h2 className="py-3">Technologies</h2>
             <p className="">NextJS, Tailwind CSS, Ant Design, Redux Toolkit</p>
 
@@ -18,11 +18,6 @@ const ProjectDetails = () => {
                 <li>Implemented server-side rendering for optimal performance and SEO benefits.</li>
                 <li>Implemented server-side rendering for optimal performance and SEO benefits.</li>
             </ul>
-
-            {/* <div className="flex items-center gap-1">
-                <h1 className="underline ">Visit Project</h1>
-                <MdArrowOutward/>
-            </div> */}
             <a className="flex items-center underline" href="https:/online-freelance-marketplace.web.app" target="_blank" >Visit Project <MdArrowOutward/> </a>
         </div>
     );

@@ -67,8 +67,8 @@ const Home = () => {
         <a href={pdf} download='Rajib Hosssen Resume' className='underline'>download</a>
       </div>
 
-      <div className='py-4'>
-        <h1>Get In Touch</h1>
+      <div className='py-10'>
+        <h1 className='font-semibold'>Get In Touch</h1>
         <div className='flex items-center gap-4 py-4'>
           <a href="https://www.linkedin.com/in/-rajib-hossen/" target="_blank" className="text-gray-700 hover:text-blue-600 transition-transform duration-300 hover:scale-110">
             <Linkedin />
@@ -109,32 +109,37 @@ const Home = () => {
           <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
           <GoArrowUpRight />
         </Link>
-        {/* <a href="http://localhost:5173/project-details">project</a> */}
+       
         <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
       </div>
       <div className='py-2'>
         <Link to='/project-details-two' className='flex items-center gap-2'>
-          <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
+          <h1 className='underline'>Fillencer</h1>
           <GoArrowUpRight />
         </Link>
-        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        
         <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
       </div>
       <div className='py-2'>
-        <Link to='/' className='flex items-center gap-2'>
+        <Link to='/project-details-three' className='flex items-center gap-2'>
           <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
           <GoArrowUpRight />
         </Link>
-        {/* <a href="http://localhost:5173/project-details">project</a> */}
+        
         <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
       </div>
       <div className='py-2'>
-        <Link to='/project-details' className='flex items-center gap-2'>
+        <Link to='/project-details-four' className='flex items-center gap-2'>
           <h1 className='underline'>US-Bangla Airlines Website & CMS</h1>
           <GoArrowUpRight />
         </Link>
-        {/* <a href="http://localhost:5173/project-details">project</a> */}
+       
         <p>Developed a responsive, SEO‑optimized website and CMS with centralized state <br/> management.</p>
+      </div>
+   
+   {/* footer section  */}
+      <div className='py-16'>
+        <h2>Copyright © 2025 Rajib Hossen. All rights reserved.</h2>
       </div>
 
 
